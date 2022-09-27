@@ -59,6 +59,7 @@ void add_anypos(int value, int pos){
 void display(){
 	Node *ptr=NULL;
 	ptr=start;
+	printf("NULL<->");
 	while(ptr){
 		printf("%d<->", ptr->info);
 		ptr=ptr->rptr;
