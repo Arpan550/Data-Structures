@@ -33,6 +33,7 @@ void peek(){
 	}
 	else{
 		printf("\nTop element:\t%d\n------------------\n", stack[top]);
+		printf("\nTop index: %d\n------------------\n", top);
 	}
 }
 
@@ -61,6 +62,9 @@ int main(){
 	display();
 	peek();
 	}
+	printf("\nSTACK::\n\n");
+	display();
+	peek();
 	while(1){
 		printf("Do you want to delete: y/n? ");
 		scanf(" %c", &choice);
@@ -74,5 +78,8 @@ int main(){
 	display();
 	peek();
 	}
+	printf("\nSTACK::\n\n");
+	display();
+	peek();	
 	return 0;
 }
